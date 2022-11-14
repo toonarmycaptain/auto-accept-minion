@@ -1,4 +1,4 @@
-# File /srv/reactor/start.sls
+# File: /srv/reactor/start.sls
 # Accept key when minion named 'minion*' starts.
 
 # I would like to know why this doesn't work.
