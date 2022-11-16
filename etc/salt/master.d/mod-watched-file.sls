@@ -6,5 +6,5 @@ modify-watched-file:
   local.cmd.run:
     - tgt: {{ data['id'] }}
     - arg:
-      - echo $date | tee -a {{ data['path'] }}
+      - echo $(date) | tee -a {{ data['path'] }}
 {% endif %}
